@@ -18,7 +18,7 @@ const initializeDbAndServer = async () => {
       console.log('Server Running at https://localhost:3000/')
     })
   } catch (e) {
-    consol.log(`DB Error:${e.message}`)
+    console.log(`DB Error:${e.message}`)
     process.exit(1)
   }
 }
